@@ -27,3 +27,15 @@ let a = function sub(num1,num2){
         }
 
 console.log(a(10,5));
+
+// IIFE-> Immediately Invoked function Expression
+
+(function(){
+    console.log("hello from IIFE");
+})();
+
+// IIFE with parameter
+
+(function(num1,num2){
+    console.log(num1/num2);
+})(10,5);
