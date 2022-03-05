@@ -31,7 +31,7 @@ while(count>0){
 }
 
 // isprime
-let n = 17;
+let n = 34925;
 let isprime = true;
 for(let i = 2 ; i*i <= n ; i++){
     if(n%i == 0){
@@ -39,4 +39,9 @@ for(let i = 2 ; i*i <= n ; i++){
         break;
     }
 }
-console.log(isprime);
+if(isprime == true){
+    console.log("number is not prime");
+}
+else{
+    console.log("number is not prime");
+}
