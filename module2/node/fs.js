@@ -38,8 +38,8 @@ let path = require("path");
 // fs.rmdirSync("mydirectory");
 
 // copy a file
-let sourcePath = path.join(__dirname , "newFile.txt");
-let destPath = path.join(__dirname ,"module" , "newFile.txt");
+let sourcePath = path.join(__dirname , "file.txt");
+let destPath = path.join(__dirname ,"module" , "file.txt");
 console.log(sourcePath);
 console.log(destPath);
 
