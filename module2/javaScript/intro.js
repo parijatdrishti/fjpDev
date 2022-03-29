@@ -45,3 +45,6 @@ if(isprime == true){
 else{
     console.log("number is not prime");
 }
+
+const nu = 4;
+console.log(nu + 4);
